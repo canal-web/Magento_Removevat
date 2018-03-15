@@ -1,0 +1,14 @@
+{
+    "name": "canal-web/magento-removevat",
+    "type": "magento-module",
+    "description": "Remove VAT amount without changing customer's group",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+      {
+            "name":"Déborah Jean",
+            "email":"deborah@canal-web.fr"
+        }
+    ]
+}
