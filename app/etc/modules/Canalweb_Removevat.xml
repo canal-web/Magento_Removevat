@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Canalweb_Removevat>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Canalweb_Removevat>
+    </modules>
+</config>

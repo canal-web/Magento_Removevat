@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Canalweb_Removevat>
+            <version>0.1.0</version>
+        </Canalweb_Removevat>
+    </modules>
+    <global>
+        <models>
+            <canalweb_removevat>
+                <class>Canalweb_Removevat_Model</class>
+            </canalweb_removevat>
+            <tax>
+                <rewrite>
+                    <calculation>Canalweb_Removevat_Model_Tax_Calculation</calculation>
+                </rewrite>
+            </tax>
+        </models>
+        <helpers>
+            <canalweb_removevat>
+                <class>Canalweb_Removevat_Helper</class>
+            </canalweb_removevat>
+        </helpers>
+    </global>
+</config>
